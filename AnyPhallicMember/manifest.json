@@ -1,0 +1,15 @@
+{
+    "name": "AnyPhallicMember",
+    "version": "1.0",
+    "description": "Trash ENEDC",
+    "permissions": ["declarativeContent"],
+    "background":{
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": "bruhmomentum.png"
+    },
+    "manifest_version": 2
+}
