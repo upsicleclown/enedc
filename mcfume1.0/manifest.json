@@ -1,0 +1,21 @@
+{
+    "name": "McFumin",
+    "manifest_version": 2,
+    "version": "1.0",
+    "description": "hello",
+    "permissions": ["storage", "declarativeContent"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": "bruhmomentum.png"
+    }, 
+    "content_scripts": [
+      {
+        "matches": ["https://www.google.ca/maps*"],
+        "js": ["content.js"]
+      }
+    ]   
+  }
