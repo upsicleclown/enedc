@@ -16,4 +16,4 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse){
         sendResponse("error");
         console.log("fuck");
     }
-})
+});
