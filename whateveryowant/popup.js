@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function (){
 
         document.body.appendChild(div)
     }
-
 });
 
 function makeForm (keys, formElement){
