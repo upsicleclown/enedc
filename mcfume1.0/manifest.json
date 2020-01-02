@@ -1,16 +1,16 @@
-{
-    "name": "McFume",
+  {
+    "name": "mcfume",
     "manifest_version": 2,
     "version": "1.0",
-    "description": "hello",
+    "description": "fumigation",
     "permissions": ["storage", "declarativeContent"],
     "background": {
       "scripts": ["background.js"],
       "persistent": false
     },
     "page_action": {
-        "default_popup": "popup.html",
-        "default_icon": "bruhmomentum.png"
+      "default_popup": "popup.html",
+      "default_icon": "bruhmomentum.png"
     }, 
     "content_scripts": [
       {

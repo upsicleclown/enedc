@@ -2,7 +2,7 @@
     chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
       chrome.declarativeContent.onPageChanged.addRules([{
         conditions: [new chrome.declarativeContent.PageStateMatcher({
-          pageUrl: {pathPrefix: '/maps/dir'},
+          pageUrl: {pathPrefix: '/maps'},
         })
         ],
             actions: [new chrome.declarativeContent.ShowPageAction()]
