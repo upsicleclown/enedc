@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function (){
         div.textContent = distance;
 
         document.body.appendChild(div)
+        console.log("mmm hello");
     }
 });
 
