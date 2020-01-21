@@ -13,21 +13,17 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
             {
                 var distance = distanceSection.getElementsByTagName("DIV")[0].innerHTML;
                 sendResponse(distance);
-                return true;
             }
 
             sendResponse("");
-            return true;
         }
         else {
             sendResponse("");
-            return true;
         }
 
     }
     else{
         sendResponse("");
-        return true;
     }
 
 
